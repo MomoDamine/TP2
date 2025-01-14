@@ -85,6 +85,8 @@
    - GND : GND
    - Signal : A0 (Entrée analogique)
 2. Développez le code Arduino pour lire les données du capteur de lumière :
+   
+   ![Capteur de lumière](photoresistance_arduino-768x430.png)
 
 #### 2. Intégration du capteur DHT11
 1. Connectez le capteur DHT11 à l'Arduino :
@@ -97,6 +99,9 @@
    - Recherchez "DHT sensor library" et installez-la.
 
 3. Développez le code Arduino pour lire les données du capteur DHT11 :
+   
+   ![Capteur de lumière](dht11-schema.png)
+
 ---
 
 ### Validation

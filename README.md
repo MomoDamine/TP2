@@ -9,8 +9,8 @@
 ## Partie 1 : Configuration de Git et gestion de projet
 
 ### Prérequis
-- Un ordinateur avec Git installé ([Lien de téléchargement Git](https://git-scm.com/))
-- Un compte GitHub ([Lien d'inscription](https://github.com/))
+- Un ordinateur avec Git installé 
+- Un compte GitHub 
 
 ### Instructions
 
@@ -75,7 +75,7 @@
 
 ### Prérequis
 - Un kit Arduino avec un capteur de lumière et un capteur DHT11.
-- Logiciel Arduino IDE ([Lien de téléchargement](https://www.arduino.cc/en/software)).
+- Logiciel Arduino IDE 
 
 ### Instructions
 
@@ -84,7 +84,7 @@
    - VCC : 5V
    - GND : GND
    - Signal : A0 (Entrée analogique)
-
+2. Développez le code Arduino pour lire les données du capteur de lumière :
 
 #### 2. Intégration du capteur DHT11
 1. Connectez le capteur DHT11 à l'Arduino :
@@ -96,6 +96,7 @@
    - Dans l'IDE Arduino, allez dans **Sketch > Include Library > Manage Libraries**.
    - Recherchez "DHT sensor library" et installez-la.
 
+3. Développez le code Arduino pour lire les données du capteur DHT11 :
 ---
 
 ### Validation

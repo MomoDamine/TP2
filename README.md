@@ -49,7 +49,7 @@
 #### 3. Clonage du projet
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/MomoDamine/arduino.git
+   git clone git@github.com:MomoDamine/arduino.git
    ```
 2. Naviguez dans le répertoire cloné :
    ```bash

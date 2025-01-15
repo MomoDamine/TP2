@@ -30,6 +30,21 @@
    ```bash
    git config --list
    ```
+#### 3. Authentification avec GitHub
+1. Générez une clé SSH :
+   ```bash
+   ssh-keygen -t ed25519 -C "VotreEmail@example.com"
+   ```
+2. Ajoutez la clé SSH à votre agent SSH :
+   ```bash
+   eval "$(ssh-agent -s)"
+   ssh-add ~/.ssh/id_ed25519
+   ```
+3. Copiez la clé SSH :
+   ```bash
+   cat ~/.ssh/id_ed25519.pub
+   ```
+4. Ajoutez la clé à GitHub ([Instructions](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)).
 
 #### 3. Clonage du projet
 1. Clonez le dépôt :
